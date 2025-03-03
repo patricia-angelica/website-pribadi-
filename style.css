@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffe6f2; /* Warna Pink Muda */
+}
+
+header {
+    background-color: #ff66b2; /* Warna Pink Cerah */
+    color: white;
+    padding: 20px;
+}
+
+.profile {
+    margin-top: 20px;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0%;
+    border: 3px solid #ff66b2; 
+   
+    display: block;
+    margin: 20px auto;
+    
+
+.profile h2 {
+    color: #d147a3; 
+}
+
+.profile p {
+    color: #555;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #ff99cc; /* Warna Pink Muda */
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff3385; /* Warna Pink Lebih Gelap */
+}
+.social-media {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffe6f2; /* Warna Pink Muda */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Mengatur teks ke kiri */
+    width: 300px; /* Batasi lebar agar lebih rapi */
+}
+  
+.social-media h2 {
+    color: #d147a3; /* Warna Pink Gelap */
+    margin-bottom: 10px;
+}
+  
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.social-media ul li {
+    margin: 5px 0;
+}
+  
+.social-media ul li a {
+    text-decoration: none;
+    color: #ff66b2; /* Warna Pink */
+    font-weight: bold;
+}
+  
+.social-media ul li a:hover {
+    color: #ff3385; /* Warna Pink Lebih Gelap */
+}
